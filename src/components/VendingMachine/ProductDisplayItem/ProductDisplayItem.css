@@ -4,9 +4,14 @@
   align-items: center;
   width: 17rem;
   padding: 0.5rem 1rem;
-  border: 1px solid green;
+  border: 1px solid dodgerblue;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.product-item:hover {
+  background-color: dodgerblue;
+  color: white;
 }
 
 .product-item__left {

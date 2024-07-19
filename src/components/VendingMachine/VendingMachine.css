@@ -1,6 +1,6 @@
 .vending-machine {
   height: 87%;
-  border: 1px solid red;
+  border: 1px solid black;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -13,4 +13,23 @@
   gap: 2rem;
   padding: 3rem 0.5rem 0 0.5rem;
   overflow: auto;
+}
+
+@media only screen and (min-width: 913px) {
+  .product-display {
+    justify-content: space-between;
+  }
+
+  .product-display::before,
+  .product-display:after {
+    display: block;
+    content: "";
+    order: 1000;
+  }
+
+  .product-display::before,
+  .product-display:after,
+  .prodyct-item {
+    flex: 0 0 30%;
+  }
 }
