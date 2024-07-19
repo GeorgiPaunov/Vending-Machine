@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Moreni",
+    "price": 1,
+    "quantity": 15
+  },
+  {
+    "name": "Borovets",
+    "price": 1.5,
+    "quantity": 14
+  },
+  {
+    "name": "Hiper",
+    "price": 2,
+    "quantity": 13
+  },
+  {
+    "name": "Spoko",
+    "price": 2.5,
+    "quantity": 12
+  },
+  {
+    "name": "Milka",
+    "price": 3,
+    "quantity": 11
+  },
+  {
+    "name": "Varna",
+    "price": 3.5,
+    "quantity": 10
+  },
+  {
+    "name": "Seagull",
+    "price": 4,
+    "quantity": 9
+  },
+  {
+    "name": "Seagull2lkjshdkfvjhskdjfhksjdhfkjshdkfjhsikdjfhksjdhfkjshdfkjasdfkghasdfgjkasdhgfksjhdfkjshdfkjshdfkjshfkjshdfkjshdkfjhsf",
+    "price": 4,
+    "quantity": 1
+  }
+]

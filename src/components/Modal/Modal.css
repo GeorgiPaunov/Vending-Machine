@@ -1,0 +1,12 @@
+.modal {
+  top: 7rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.modal::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}

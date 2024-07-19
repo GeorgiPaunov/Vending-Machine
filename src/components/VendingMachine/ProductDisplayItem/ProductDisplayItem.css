@@ -1,0 +1,28 @@
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 17rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product-item__left {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  max-width: 70%;
+}
+
+.product-item__left .product-name {
+  max-width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-item__left .product-quantity {
+  font-size: 0.7rem;
+}

@@ -1,0 +1,18 @@
+.inventory .create-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-left: auto;
+  display: block;
+}
+
+.inventory-list {
+  margin-top: 2rem;
+}
+
+.inventory-list h4 {
+  text-align: center;
+}

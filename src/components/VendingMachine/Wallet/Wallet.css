@@ -1,0 +1,24 @@
+.wallet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+.wallet button:not(:last-child) {
+  border-radius: 50%;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  cursor: pointer;
+}
+
+.wallet button:last-child {
+  padding: 0 2rem;
+  border-radius: 10px;
+  min-height: 1.5rem;
+  margin-left: 3rem;
+  cursor: pointer;
+  background-color: white;
+}

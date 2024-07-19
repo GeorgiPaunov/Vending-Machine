@@ -1,0 +1,27 @@
+.cashier-unit {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.cashier-unit__sum {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cashier-unit__sum div {
+  background-color: lightblue;
+  padding: 0.5rem;
+  color: black;
+  min-width: 4rem;
+}
+
+.cashier-unit button {
+  padding: 0 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}

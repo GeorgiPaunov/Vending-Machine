@@ -1,0 +1,16 @@
+.vending-machine {
+  height: 87%;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 3rem 0.5rem 0 0.5rem;
+  overflow: auto;
+}

@@ -1,0 +1,35 @@
+.inventory-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.inventory-item__name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.inventory-item__price,
+.inventory-item__quantity {
+  min-width: 4.5rem;
+}
+
+.inventory-item__button-container button {
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: orange;
+}
+
+.delete-btn {
+  background-color: red;
+  margin-left: 0.5rem;
+}
